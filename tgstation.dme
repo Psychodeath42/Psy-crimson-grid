@@ -7489,6 +7489,7 @@
 #include "modular_darkpack\modules\jobs\code\hunters\novice.dm"
 #include "modular_darkpack\modules\jobs\code\miscelllaneous\citizen.dm"
 #include "modular_darkpack\modules\jobs\code\miscelllaneous\club_worker.dm"
+#include "modular_darkpack\modules\jobs\code\miscelllaneous\jazz_club_worker.dm"
 #include "modular_darkpack\modules\jobs\code\miscelllaneous\janitor.dm"
 #include "modular_darkpack\modules\jobs\code\miscelllaneous\priest.dm"
 #include "modular_darkpack\modules\jobs\code\miscelllaneous\red_news.dm"

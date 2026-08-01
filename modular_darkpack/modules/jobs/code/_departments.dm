@@ -45,13 +45,6 @@
 	display_order = 4
 	ui_color = "#a566a5ff"
 
-/datum/job_department/jazz_club
-	department_name = DEPARTMENT_JAZZ_CLUB
-	department_bitflags = DEPARTMENT_BITFLAG_JAZZ_CLUB
-	department_head = /datum/job/vampire/primogen_ventrue
-	department_experience_type = EXP_TYPE_CLUB
-	display_order = 5
-	ui_color = "#7851a9"
 // Anarch
 /datum/job_department/anarch
 	department_name = DEPARTMENT_ANARCH
@@ -146,9 +139,17 @@
 	display_order = 15
 	ui_color = "#fff022"
 
+	/datum/job_department/jazz_club
+	department_name = DEPARTMENT_JAZZ_CLUB
+	department_bitflags = DEPARTMENT_BITFLAG_JAZZ_CLUB
+	department_head = /datum/job/vampire/primogen_ventrue
+	department_experience_type = EXP_TYPE_CLUB
+	display_order = 18
+	ui_color = "#7851a9"
+
 // Bottom of the barrel
 /datum/job_department/citizen
 	department_name = DEPARTMENT_CITIZEN
 	department_bitflags = DEPARTMENT_BITFLAG_CITIZEN
-	display_order = 16
+	display_order = 19
 	// Don't add department_head! citizens names should not be in bold.
