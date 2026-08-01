@@ -67,6 +67,9 @@
 //Strip Club
 #define JOB_CLUB_WORKER "Club Worker"
 
+//Jazz Club
+#define JOB_JAZZ_CLUB_WORKER "Jazz Club Worker"
+
 //Giovanni
 #define JOB_CAPO "Capo"
 #define JOB_LA_SQUADRA "La Squadra"
@@ -127,6 +130,7 @@
 #define JOB_DISPLAY_ORDER_STRIP 2
 #define JOB_DISPLAY_ORDER_TAXI 3
 #define JOB_DISPLAY_ORDER_PRIEST 4
+#define JOB_DISPLAY_ORDER_JAZZ 5
 
 #define JOB_DISPLAY_ORDER_SUPPLY 1
 #define JOB_DISPLAY_ORDER_DEALER 2
@@ -211,6 +215,10 @@
 #define DEPARTMENT_BITFLAG_SOCIETY_OF_LEOPOLD (1<<16)
 #define DEPARTMENT_SOCIETY_OF_LEOPOLD "Society of Leopold"
 
+
+#define DEPARTMENT_BITFLAG_JAZZ_CLUB (1<<18)
+#define DEPARTMENT_JAZZ_CLUB "Jazz Club"
+
 DEFINE_BITFIELD(departments_bitflags, list(
 	"CITIZEN" = DEPARTMENT_BITFLAG_CITIZEN,
 	"PRINCE" = DEPARTMENT_BITFLAG_PRINCE,
@@ -221,6 +229,7 @@ DEFINE_BITFIELD(departments_bitflags, list(
 	"CLINIC" = DEPARTMENT_BITFLAG_CLINIC,
 	"ANARCH" = DEPARTMENT_BITFLAG_ANARCH,
 	"STRIP_CLUB" = DEPARTMENT_BITFLAG_STRIP_CLUB,
+	"JAZZ_CLUB" = DEPARTMENT_BITFLAG_JAZZ_CLUB,
 	"SUPPLY" = DEPARTMENT_BITFLAG_SUPPLY,
 	"GIOVANNI" = DEPARTMENT_BITFLAG_GIOVANNI,
 	"POLICE" = DEPARTMENT_BITFLAG_POLICE,
@@ -250,6 +259,8 @@ DEFINE_BITFIELD(departments_bitflags, list(
 #define SUPERVISOR_SENESCHAL_PUBLIC "the COO"
 #define SUPERVISOR_BARON_PUBLIC "the Bar's Owner"
 #define SUPERVISOR_SOCIETY_OF_LEOPOLD "the Society of Leopold, the Inquisition, the local Provincial, and God"
+
+#define SUPERVISOR_JAZZ_CLUB_DIRECTOR "the owner of the Jazz Club"
 
 // Playtime tracking system, see jobs_exp.dm
 // weird one.
